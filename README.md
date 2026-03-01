@@ -12,6 +12,23 @@ Para executar o projeto deve utilizar o seguinte comando:
 
 `npm run dev`
 
+# Tailwindcss
+
+Biblioteca `Tailwindcss` é utilizada para estilizar a aplicação React
+
+Instalar a dependências nessas versões: 
+`npm install -D tailwindcss@3.4.10 postcss@8.4.41 autoprefixer@10.4.20`
+
+Depois de instalado, execute o comando abaixo para inicializar `tailwindcss` no projeto:
+`npx tailwindcss init -p`
+
+Na sequência, configure os caminhos do modelo, dentro do arquivo `tailwind.config.js`.
+Colocar dentro do atributo `content` os seguintes valores:
+ `content: ["./index.html","./src/**/*.{js,ts,jsx,tsx}"],`
+
+Caso de dúvidas acessar o link abaixo e seguir o passo a passo de configuração para projetos `React + Vite`:
+https://v3.tailwindcss.com/docs/guides/vite
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
